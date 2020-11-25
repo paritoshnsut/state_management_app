@@ -9,7 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-
+         appBar: AppBar(
+           elevation: 0.0,
+           title: Text("Restrovaganza" , style: TextStyle(color: Colors.black),),
+           leading: IconButton(icon: Icon(Icons.menu), color: Colors.black,onPressed: (){},),
+           
+         ),
       ),
     );
   }
